@@ -1,7 +1,8 @@
 import React from 'react';
+import SearchBar from './SearchBar';
 
 const App = () => {
-return<div>Hello new app</div>
+return<div><SearchBar /></div>
 
 };
 
