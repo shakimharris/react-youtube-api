@@ -14,7 +14,7 @@ componentDidMount() {
 }
 
 setSpans = () => {
-
+console.log(this.imageRef.current.clientHeight);
 }
 
 
