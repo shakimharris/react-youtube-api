@@ -15,6 +15,7 @@ async onSearchSubmit (term) {
     }
     });
     this.setState({ images: response.data.results});
+    console.log(this);
 }
 render () {
   return (
