@@ -17,6 +17,7 @@ setSpans = () => {
 const height = this.imageRef.current.clientHeight;
 
 const spans = Math.ceil(height / 150 +1);
+this.setState = ({ spans });
 }
 
 
