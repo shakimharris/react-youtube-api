@@ -20,6 +20,7 @@ render () {
   return (
    <div className="ui container">
    <SearchBar onSubmit={this.onSearchSubmit} />
+   Found: {this.state.images.length} images
     </div>
    );
   }
